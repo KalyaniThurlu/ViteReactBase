@@ -1,0 +1,58 @@
+
+
+.container-fluid {
+    background: linear-gradient(to bottom, #84c1ff, #a5d8ff);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .weather-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+width: 40em;
+  }
+  
+  .weather-card h4 {
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .weather-icon img {
+    width: 80px;
+  }
+  
+  .weather-temp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .weather-text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .weather-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .input-group {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .alert-danger {
+    max-width: 500px;
+    margin: 10px auto;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+  }
+  

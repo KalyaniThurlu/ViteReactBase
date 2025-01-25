@@ -1,0 +1,123 @@
+
+/* General container styling */
+.container-fluid {
+    background: linear-gradient(to bottom, #a8e6ff, #e0f7fa); /* Soft gradient background */
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-group .form-control {
+    border-radius: 30px 0 0 30px;
+    border: 1px solid #007bff;
+  }
+  
+  .input-group .btn-primary {
+    border-radius: 0 30px 30px 0;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+  }
+  
+  /* Error message styling */
+  .alert-danger {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 1rem;
+    color: #d9534f;
+    text-align: center;
+    background-color: #f9d6d5;
+    border: 1px solid #d9534f;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Weather card styling */
+  .weather-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .weather-card h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .weather-icon img {
+    width: 150px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .weather-temp {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .weather-text {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .weather-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Flexbox for centering weather content */
+  .imagecontroler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 20px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 576px) {
+    .input-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .input-group .form-control,
+    .input-group .btn-primary {
+      border-radius: 30px;
+      margin-bottom: 10px;
+    }
+  
+    .weather-card {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .weather-icon img {
+      width: 120px;
+    }
+  
+    .weather-temp {
+      font-size: 1.5rem;
+    }
+  
+    .weather-details p {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,106 @@
+
+body {
+    
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(116, 152, 225);
+}
+
+
+.weather {
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+}
+/* weather.css */
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search 
+
+.search input {
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: rgb(222, 237, 243);
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.search button {
+    border: none;
+    outline: 0;
+    width: 10px; /* Adjusted width for the icon */
+    height: 40px; /* Adjusted height for the icon */
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: hsl(272, 19%, 83%);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.winfo-icon {
+    margin-top: 20px;
+    width: 170px;
+}
+.custom-margin {
+    margin-top: 40px; /* or any value you prefer */
+}
+
+
+.winfo h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 25px;
+    color: white;
+}
+
+.winfo h3 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0px 20px; 
+    margin-top: 50px; 
+    
+}
+.humdity, .wind {
+    font-size: 27px;
+}
+
+
+.humidity p, .wind p{
+    margin: 0px;
+}
+.error{
+    color: red; /* Change to any color you prefer */
+    font-weight: bold;
+    
+    text-align: left;
+    margin-right: 10px;
+
+}
