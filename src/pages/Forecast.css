@@ -9,7 +9,6 @@
   
      /* Optional: Adds padding inside the container */
   }
-  
   /* Weather card styling with individual spacing on each side */
   .weather-card {
     background-color: #ffffff;
@@ -24,7 +23,6 @@
     justify-content: center; /* Centers the content vertically */
     align-items: center; /* Centers the content horizontally */
   }
-  
   /* Centering content and image inside the card */
   .weather-card img {
     width: 50%; /* Adjust image width */
@@ -32,7 +30,6 @@
     text-align: center; /* Centers image horizontally */
     margin-bottom: 10px; /* Adds space below the image */
   }
-  
   /* Additional specific text alignment for individual elements inside the card */
   .weather-time, 
   .weather-temp,
@@ -51,7 +48,6 @@
     font-size: 1.2rem;
     font-weight: bold;
   }
-  
   .weather-temp {
     font-size: 1.5rem;
     font-weight: bold;
